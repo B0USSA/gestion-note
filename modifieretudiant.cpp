@@ -93,7 +93,7 @@ void ModifierEtudiant::on_ajouter_btn_clicked()
             mainWindow->list_students();
         }
     } else {
-        QSqlDatabase::database().rollback();  // Annuler la transaction en cas d'échec
+        QSqlDatabase::database().rollback();  
         qDebug() << "Error updating student:" << update_data.lastError().text();
         QMessageBox::warning(this, "Erreur", "Erreur lors de la mise à jour de l'étudiant : " + update_data.lastError().text());
     }
