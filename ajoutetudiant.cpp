@@ -4,7 +4,7 @@
 AjoutEtudiant::AjoutEtudiant(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AjoutEtudiant),
-    mainWindow(dynamic_cast<MainWindow*>(parent))  // Convertir le parent en MainWindow*
+    mainWindow(dynamic_cast<MainWindow*>(parent))  
 {
     ui->setupUi(this);
 
