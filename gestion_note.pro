@@ -20,7 +20,6 @@ SOURCES += main.cpp\
 
 HEADERS  += mainwindow.h \
     ajoutetudiant.h \
-    dbconnect.h \
     modifieretudiant.h \
     menu.h
 
