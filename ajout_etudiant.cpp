@@ -1,11 +1,11 @@
 #include "ajout_etudiant.h"
-#include "ui_ajout_etudiant.h"  // Assurez-vous de bien inclure ce fichier
+#include "ui_ajout_etudiant.h"  
 
 AjoutEtudiant::AjoutEtudiant(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AjoutEtudiant)
 {
-    ui->setupUi(this);  // Lier l'interface utilisateur
+    ui->setupUi(this);  
 }
 
 AjoutEtudiant::~AjoutEtudiant()
